@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container{
+    margin: 15px 20px 40px 20px;
+    width: 1078px;
+    height: 518px;
+    background: #C4C4C4;
+    margin: 40px auto;
+    border-radius:3px;
+}
+.weather__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weather{
+    width: 220px;
+    height: 122px;
+    background-color:  #DAC1AE;
+    box-shadow: 0px 0px 10px 1px rgba(173, 169, 165, 0.5);
+    border-radius: 23px;
+    margin:40px;
+    
+}
+
+.data__city{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px 27px 0px 27px;
+}
+
+.weather__description{  
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+}
+
+.city{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.weather__description{
+    padding: 6px 27px 13px 27px ;
+    text-align: center;
+}
+
+.temperature{
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
+
+.btn__refresh{
+margin: 40px 127px 0px 0px;
+    
+}
+
+button{
+    width: 63px;
+    height: 63px;
+    background: #DAC1AE;
+    box-shadow: 0px 0px 10px 1px rgba(173, 169, 165, 0.5);
+    border-radius: 10px;
+}
+/* Пишем стили для Валюты */
+.valute__root{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 49px;
+}
+.valute__wrapper{
+    width: 158px;
+    height: 85px;
+    background-color: #DAC1AE;
+    box-shadow: 0px 0px 10px 1px rgba(173, 169, 165, 0.5);
+    border-radius: 10px;
+}
+
+.valute__price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 27px 7px 18px 7px;
+}
+.valute__descr{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  font-size: 12px;
+}
